@@ -5,15 +5,25 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 50px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  
+  align-items: center;
+  font-size: larger;
+  font-weight: 900;
+  padding-left: 10px;
+
 }
 
 .footer {
-  height: 72px;
+  height: 50px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -25,4 +35,25 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
+  height: 200px;
+  
+}
+.upper {
+  display: flex;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+  
+  
+}
+.list {
+   list-style: none;
+   padding-left: 10px;
+   text-decoration: none;
 }
